@@ -68,7 +68,32 @@ div.cnaimagem1{
     box-shadow: 1px 1px 5px black;
 
 }
-
+.container{
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    position: relative;
+    height: 40vh;
+    box-shadow: 1px 1px 8px black;
+}
+.container1{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    position: relative;
+    height: 40vh;
+    box-shadow: 1px 1px 8px black;
+}
+.conteudo{
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    height: 180px;
+    width: 250px;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 footer{
     background-color: black;
     color: white;

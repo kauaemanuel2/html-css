@@ -15,25 +15,30 @@ header > h1{
     color: white;
     font-size: 50px;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
+    font-variant: small-caps ;
     font-family: 'Archivo Black', sans-serif;
     
 }
 header > p{
     color: white;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     font-family: 'Archivo Black', sans-serif;
     
 }
+
 a{
     color: white;
     text-decoration: none;
     font-weight: bold;
 }
+
 a:hover{
     text-decoration: underline;
+}
+body{
+    min-height: 100vh;
 }
 main{
     background-color: white;
@@ -43,31 +48,15 @@ main{
 div.cordel{
     background-color: white;
     text-align: initial;
-    padding-top: 50px;
-    padding-bottom: 50px;
     text-indent: 25px;
     font-family: 'Brygada 1918', serif;
     color: black;
     font-size: 25px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
-div.cnaimagem{
-    background-image: url(imagens/background001.jpg);
-    background-position: center center;
-    background-size: auto;
-    font-family: 'Brygada 1918', serif;
-    color: white;
-    padding: 50px;
-}
-div.cnaimagem1{
-    background-image: url(imagens/background002.jpg);
-    background-position: center center;
-    background-size: cover;
-    font-family: 'Brygada 1918', serif;
-    color: white;
-    box-shadow: 1px 1px 5px black;
-
-}
 .container{
     background-image: url(imagens/background001.jpg);
     background-position: center center;

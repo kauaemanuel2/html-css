@@ -13,7 +13,7 @@ header{
 
 header > h1{
     color: white;
-    font-size: 50px;
+    font-size: 8vw;
     text-align: center;
     padding-top: 50px;
     font-variant: small-caps ;
@@ -52,9 +52,10 @@ div.cordel{
     font-family: 'Brygada 1918', serif;
     color: black;
     font-size: 25px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 2em;
+    padding-bottom: 2em;
     line-height: 2em;
+    
 }
 
 .container{
@@ -62,14 +63,16 @@ div.cordel{
     background-position: center center;
     position: relative;
     height: 40vh;
-    box-shadow: 1px 1px 8px black;
+    box-shadow: inset 6px 6px 13px black;
+    background-attachment: fixed;
 }
 .container1{
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     position: relative;
     height: 40vh;
-    box-shadow: 1px 1px 8px black;
+    box-shadow: inset 6px 6px 13px black;
+    background-attachment: fixed;
 }
 .conteudo{
     background-color: rgba(0, 0, 0, 0.548);
@@ -82,6 +85,7 @@ div.cordel{
     left: 30%;
     top: 50%;
     transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 0px black;
 }
 footer{
     background-color: black;

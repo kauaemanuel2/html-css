@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="INome"> Nome </label>
+            <input type="text" name="Nome" id="INome" required maxlength="30" placeholder="Nome completo" autocomplete="name">
+        </p>
+        <p><label for="IMedia">Nota</label>
+            <input type="number" name="Media" id="IMedia" min="0" max="10" placeholder="0-10" step="0.1" required value="5">
+        </p>
+        <p><label for="IPeriodo">Qual período</label>
+            <input type="month" name="Periodo" id="IPeriodo" required value="2024-01">
+        </p>
+        <p><label for="IData">Dia da avaliação</label>
+            <input type="date" name="Data" id="IData">
+        </p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>

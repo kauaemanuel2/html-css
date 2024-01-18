@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos de formulário</title>
+    <style>
+        fieldset{
+            background-color: rgb(172, 255, 47);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset > legend{
+            color: black;
+            font-style: italic;
+            font-weight: bolder;
+        }
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+        <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <!--Fieldset -> Agrupamento / legend -> legenda
+        -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p><label for="INome">Nome</label>
+                <input type="text" name="Nome" id="INome" required minlength="3" maxlength="20" placeholder="Nome Completo">
+            </p>
+            <p><label for="ICpf">CPF</label>
+                <input type="text" name="CPF" id="ICpf" required placeholder="Sem pontuação">
+            </p>
+            <p><label for="IEmail">E-mail</label>
+                <input type="email" name="Email" id="IEmail" autocomplete="email" required>
+            </p>
+            <p><label for="ITelefone">Telefone</label>
+                <input type="tel" name="Telefone" id="ITelefone" autocomplete="tel" required size="10" pattern="^\[0-9]{4,5}-[0-9]{4}$" placeholder="XXXXX-XXXX">
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar" >
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
